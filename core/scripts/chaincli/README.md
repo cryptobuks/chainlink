@@ -84,5 +84,5 @@ This address should be defined within `BOOTSTRAP_NODE_ADDR` evar which gonna be 
 
 3. Once we have a bootstrap node up and running, ocr2keeper nodes are ready to be created.
 ```shell
-$ chaincli keeper launch-and-test
+$ go run main.go keeper launch-and-test
 ```
